@@ -1,0 +1,1 @@
+document.getElementById('tileset').onload = () => import('./engine.js').then(m => m.initGame());
